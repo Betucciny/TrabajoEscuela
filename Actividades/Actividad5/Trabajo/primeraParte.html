@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+    <meta charset="UTF-8">
+    <title>Primera Parte</title>
+</head>
+<body>
+    <a href="../index.html"><p>Regresar A la pagina anterior</p></a>
+    <h1>Primera Parte</h1>
+    <h2>&lt;dl&gt;, &lt;dt&gt; y &lt;dd&gt;,</h2>
+    <p>
+        La tag &lt;dl&gt; es un elemtnero HTML que representa una lista con descripcion, el elemento engloba una
+        lista de grupos de terminos, (especificados usando el elemento &lt;dt&gt;, y descripciones (dados por el
+        elemento &lt;dd&gt;). Los usos comunes son para la implementacion de glosarios o mostrar metadatos.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>Materias 4to semestre</p>
+    <dl>
+        <dt>Dearrollo web</dt>
+        <dd>Materia centrada en la realizacion de aplicaciones web y el conocimiento de las diferentes tecnologias</dd>
+
+        <dt>Fundamentos de IA</dt>
+        <dd>Materia centrada en introducir a los estudiantes a el funcionamiento de las diferentes formas de
+        funcionamiento de IA</dd>
+
+        <dt>Matematicas avanzadas para ingenieria</dt>
+        <dd>Materia centrada en terminar de dar herramientas matematicas a los estudiantes para su camino laboral</dd>
+    </dl>
+
+
+    <br>
+    <h2>&lt;blockquote&gt; y &lt;cite&gt;</h2>
+    <p>
+        EL elemento &lt;blockquote&gt; indica que el texto encerrado es una cita extensa, normalmente se coloca un URL
+        con la fuente de la cita usando el atributo <strong>cite</strong>, mientras que la representacion tectual de la
+        fuente puede darse usando la etiqueta &lt;cite&gt;.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <figure>
+        <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
+            <p>To change the indentation applied to the quoted text, use the CSS margin-left and/or margin-right
+                properties, or the margin shorthand property.</p>
+        </blockquote>
+        <figcaption>—Programadores en <cite>El sitio oficial de Mozilla</cite></figcaption>
+    </figure>
+
+
+    <br>
+    <h2>&lt;q&gt;</h2>
+    <p>
+        El elemento &lt;q&gt; indica que el texto encerrado es una cita en linea corta, la mayoria de los navegadores
+        actuales encierra entre comillas el contenido. Al igual que en &lt;blockquote&gt;, se usa el atributo
+        &lt;cite&gt; para indicar el URL de la cita.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>Como se menciona en el sitio oficial de mozilla:
+        <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">
+            The value of this attribute is a URL that designates a source document or message for the information
+            quoted.
+        </q>
+    </p>
+
+    <br>
+    <h2>&lt;abbr&gt;</h2>
+    <p>
+        El elemento &lt;abbr&gt; represena una abreviacion o un acrónimo, cuando se incluye un acronimo o una
+        abreviacion normalemnte se da una expresion completa del tecto que se queire representar, usando &lt;abbr&gt;
+        para encerrar el acronimo o abreviacion.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>You can use <abbr>CSS</abbr> (Cascading Style Sheets) to style your <abbr>HTML</abbr> (HyperText Markup
+        Language). Using style sheets, you can keep your <abbr>CSS</abbr> presentation layer and <abbr>HTML</abbr>
+        content layer separate. This is called "separation of concerns."
+    </p>
+
+
+    <br>
+    <h2>&lt;address&gt;</h2>
+    <p>
+        El elemento &lt;address&gt; indica que el texto encerrado provee informacion de contaco para una persona,
+        personas o una organizacion.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>Contact the author of this page:</p>
+    <address>
+        <a href="mailto:jim@rock.com">jim@rock.com</a><br>
+        <a href="tel:+13115552368">(311) 555-2368</a>
+    </address>
+
+
+    <h2>&lt;sub&gt; y  &lt;sup&gt;</h2>
+    <p>
+        Elemento &lt;sub&gt; y &lt;sup&gt; son usados para representar subindicies y superindices respectivamente, estos
+        solo son usados por razonas tipograficas (de como se ve el texto)
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>
+        <var>a<sup>2</sup></var> + <var>b<sup>2</sup></var> = <var>c<sup>2</sup></var><br>
+        Almost every developer's favorite molecule is
+        C<sub>8</sub>H<sub>10</sub>N<sub>4</sub>O<sub>2</sub>, also known as "caffeine."
+    </p>
+
+
+    <h2>&lt;code&gt;</h2>
+    <p>
+        La etiqueta &lt;code&gt; es usada para mostrar sus contenidos con un estilo que muestre que el texto es un
+        fragmento pequeño de codigo para computadora.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>
+        The <code>push()</code> method adds one or more elements to the end of an array and returns the new length of
+        the array.
+    </p>
+
+
+    <h2>&lt;pre&gt;</h2>
+    <p>
+        El elemento &lt;pre&gt; sirve para mostar texto tal cual esta escrito en el archivo HTML, este texto normalmente
+        es renderizado usando una fuente no-proporcional o monoespaciada.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <pre>
+      L          TE
+        A       A
+          C    V
+           R A
+           DOU
+           LOU
+          REUSE
+          QUE TU
+          PORTES
+        ET QUI T'
+        ORNE O CI
+         VILISÉ
+        OTE-  TU VEUX
+         LA    BIEN
+        SI      RESPI
+                RER       - Apollinaire
+    </pre>
+
+
+    <h2>&lt;var&gt;</h2>
+    <p>
+        El elemento &lt;var&gt; representa el nombre de una variable en una expresion matemática o un contexto de
+        programacion.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>
+        The volume of a box is <var>l</var> × <var>w</var> × <var>h</var>, where <var>l</var> represents the length,
+        <var>w</var> the width and <var>h</var> the height of the box.
+    </p>
+
+
+    <h2>&lt;kbd&gt;</h2>
+    <p>
+        El elemento &lt;kbd&gt; representa una parte de texto en linea que es una entrada de teclado, una entrada de voz
+        o cualquier otro dispoditivo de entrada de texto.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>Please press <kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>R</kbd> to re-render an MDN page.</p>
+
+
+    <h2>&lt;samp&gt;</h2>
+    <p>
+        El elemento &lt;samp&gt; es usado para encerrar texto en linea que representa una muestra de la salida de un
+        de un programa de computadora.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>
+        I was trying to boot my computer, but I got this hilarious message: <br>
+        <samp>Keyboard not found <br>Press F1 to continue</samp>
+    </p>
+
+
+    <h2>&lt;time&gt;</h2>
+    <p>
+        La etiqueta &lt;time&gt; representa un periodo especifico de tiempo, este puede incluir el atributo
+        <strong>datetime</strong> ek cyak traduce las fechas a un formtato legible para programas de computadora,
+        permitiendo mejores resultados en motores de busqueda o caracteristicas especiales como alarmas.
+    </p>
+    <p>Un ejemplo seria:</p>
+    <p>
+        The concert starts at <time datetime="20:00">20:00</time> and you'll be able to enjoy the band for at least
+        <time datetime="PT2H30M">2h 30m</time>.
+    </p>
+
+
+
+</body>
+</html>
