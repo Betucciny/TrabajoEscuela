@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+header{
+    width: 100%;
+}
+
+body{
+    background-image: url("../images/background-pattern.png");
+}
+
+nav ul{
+    display: flex;
+    padding: 0 2em;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0.5em;
+    font-size: 1.2rem;
+}
+
+nav ul li a{
+    color: #3884a7;
+}
+
+.contendor_navegador ul{
+    justify-content: flex-end;
+    background-color: #273649;
+}
+
+.contenedor_logo{
+    padding-left: 4em;
+    background-image: url("../images/header-background.png");
+    background-repeat: repeat;
+}
+
+.contenedor_secundario{
+    background-color: #d9e0ea;
+    padding-left: 3em; 
+}
+
+article{
+    margin-top: 2em;
+}
+
+.main_imagen{
+    background-color: white;
+    padding: 1.5em;
+    margin: 0 9em 1.5em 9em;
+    text-align: center;
+}
+
+.main_imagen img{
+    border: 1px solid black;
+    padding: 0.7em;
+}
+
+
+
+.contenedor_general{
+    background-color: white;
+    margin: 0 9em 1.5em 9em;
+    border: 1px solid black;
+}
+
+.conetenedor_titulo{
+    padding: 0.5em 0 1em 0.5em;
+    background-image: url("../images/header-background.png");
+    color: white;
+    font-size: 1.2rem;
+}
+
+.detalles p, .telefonos p{
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.5em 0 0.5em 0.5em;
+}
+
+.detalles p em, .telefonos p em{
+    color: rgb(71, 71, 71);
+    font-weight: 600;
+}
+
+.contenedor_bandera{
+    background-color: #273649;
+    padding: 0.7em;
+}
+
+.contenedor_bandera ul{
+    list-style: none;
+    display: flex;
+}
+
+.contenedor_bandera ul li{
+    text-align: inherit;
+    padding: 0.2em 1em;
+    background-color: #d5e1ec;
+    margin-left: 1em;
+    justify-content: center;
+}
+
+.contenedor_bandera ul li img{
+    padding-right: 1em;
+}
+
+.contenedor_bandera ul li a, .telefonos a, .footer p a{
+    color: #75cfff;
+    font-size: 1.3rem;
+}
+
+.footer{
+    background-color: #273649;
+    margin: 0 9em 1.5em 9em;
+    padding: 0.5em 0.5em;
+}
+
+.footer p{
+    color: white;
+}

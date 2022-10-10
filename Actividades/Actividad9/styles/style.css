@@ -1,0 +1,111 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+body{
+    background-image: url("../images/art-background4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-color: white;
+    width: 31em;
+    height: auto;
+}
+
+.conetenedor_titulo{
+    padding: 3em 2em;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.conetenedor_titulo h1{
+    font-stretch: extra-condensed;
+    font-size: 2.2rem;
+    padding: 0 0 0.3em 0;
+}
+
+.conetenedor_titulo p{
+   color: black;
+}
+
+.posicionamiento{
+    margin-left: 10%;
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+
+.contenedor_construccion{
+    margin-top: 10em;
+    width: 45em;
+}
+
+.contenedor_contacto, .contenedor_contacto ul{
+    display: flex;
+}
+
+.contenedor_contacto ul{
+    list-style: none;
+}
+
+.contenedor_construccion{
+    background: rgba(213,208,204,0.6);
+}
+
+.contenedor_sitioweb{
+    background: rgba(213,208,204,0.4);
+}
+
+.contenedor_sitioweb h2{
+    font-size: 1.5rem;
+    padding: 1em 0;
+}
+
+.contenedor_sitioweb .contenedor_horario{
+    background: rgba(24, 24, 24, 0.5);
+    color: white;
+    width: 20em;
+}
+
+.contenedor_sitioweb .contenedor_horario p{
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0.6em 2em;
+}
+
+.contenedor_contacto{
+    background-color: #efefef;
+}
+
+.contenedor_contacto a{
+    padding: 0.7em;
+    color: #6b6cda;
+    font-size: 1.2rem;
+}
+
+.contenedor_contacto ul{
+    padding: 0.7em;
+}
+
+.contenedor_contacto li{
+    padding: 0 0.2em;
+}
+
+
+.letras{
+    padding: 0.8em 1em;
+}
+
+.contenedor_construccion h3{
+    font-size: 1.6rem;
+}
