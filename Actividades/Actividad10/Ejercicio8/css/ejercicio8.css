@@ -1,0 +1,79 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+header nav {
+    height: 75px;
+    padding: 20px;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0
+}
+
+header {
+    background-color: orange;
+    background-size:cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section {
+    background-color: deepskyblue;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+footer {
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+    height: 100px;
+}
+
+#principal{
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    margin: 75px 100px 75px 100px;
+}
+
+.details{
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    background-color: yellow;
+}
+
+.details div{
+    background-color: lime;
+    width: calc(50% - 10px);
+    height: 400px;
+}
+
+
+#main{
+    margin-bottom: 75px;
+    background-color: green;
+    height: 400px;
+}
+
+#suscribete{
+    background-color: gray;
+    height: 400px;
+}
+
